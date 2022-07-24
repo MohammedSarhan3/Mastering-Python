@@ -34,3 +34,19 @@ name2 = "#@#@Elzero#@#@"
 # Needed Output
 # Elzero
 print(name2.replace("#@", ""))
+
+#5
+num1 = "9"
+num2 = "15"
+num3 = "130"
+num4 = "950"
+num5 = "1500"
+
+# Needed Output
+# 0009
+print(num1.zfill(4),num2.zfill(4),num3.zfill(4),num4.zfill(4),num5.zfill(4))
+# 0015
+# 0130
+# 0950
+# 1500
+
