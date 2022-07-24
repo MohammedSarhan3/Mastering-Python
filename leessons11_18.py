@@ -26,3 +26,11 @@ print(name[1],name[2],name[3])
 print(name[0],name[2],name[4])
 # "rzE"
 print(name[4],name[2],name[0])
+
+
+#4
+name2 = "#@#@Elzero#@#@"
+
+# Needed Output
+# Elzero
+print(name2.replace("#@", ""))
