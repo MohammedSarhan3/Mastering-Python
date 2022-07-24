@@ -50,3 +50,14 @@ print(num1.zfill(4),num2.zfill(4),num3.zfill(4),num4.zfill(4),num5.zfill(4))
 # 0950
 # 1500
 
+#6
+
+name_one = "Osama"
+name_two = "Osama_Elzero"
+
+# Needed Output
+print(name_one.rjust(20, "@"))
+# @@@@@@@@@@@@@@@Osama
+print(name_two.rjust(20, "@"))
+# @@@@@@@@Osama_Elzero
+
