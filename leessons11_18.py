@@ -78,3 +78,10 @@ msg = "I Love Python And Although Love Elzero Web School"
 print(msg.count("Love"))
 # 2
 
+#10
+name = "Elzero"
+
+# Needed Output
+print(name.index("z"))
+# 2
+
