@@ -1,4 +1,4 @@
-Add First Task
+
 #1
 #name= "'osama'"
 age = '"18"'
@@ -100,5 +100,15 @@ msg = "I <3 Python And Although <3 Elzero Web School"
 # Needed Output
 print(msg.replace("<3", "Love"))
 # I Love Python And Although Love Elzero Web School
+
+#13
+
+name = "Osama"
+age = 38
+country = "Egypt"
+
+# Needed Output Using f""
+# My Name Is Osama, And My Age Is 38, And My Country Is Egypt
+print(f"My Name Is {name}, And My Age Is {age}, And My Country Is {country}")
 
 
