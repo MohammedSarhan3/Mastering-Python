@@ -1,4 +1,4 @@
-Add First Task"
+Add First Task
 #1
 #name= "'osama'"
 age = '"18"'
@@ -18,3 +18,11 @@ print(name[2])
 # Last Letter Is "o"
 print(name[5])
 
+#3
+# Needed Output
+# "lze"
+print(name[1],name[2],name[3])
+# "Ezr"
+print(name[0],name[2],name[4])
+# "rzE"
+print(name[4],name[2],name[0])
