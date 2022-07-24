@@ -71,3 +71,10 @@ print(name_one.swapcase())
 # OSAma
 print(name_two.swapcase())
 
+#8
+msg = "I Love Python And Although Love Elzero Web School"
+
+# Needed Output
+print(msg.count("Love"))
+# 2
+
