@@ -42,3 +42,17 @@ print(50 * 30) # 1500
 print(21 % 4) # 1
 print(110 // 11) # 10
 print(97 // 20) # 4
+
+# Assignments For Lessons 21 To 23
+# Task [1]
+friends = ["Osama", "Ahmed", "Sayed", "Ali", "Mahmoud"]
+
+# Needed Output
+# "Osama" => Method One
+print(friends[0])
+# "Osama" => Method Two
+print(friends[-5])
+# "Mahmoud" => Method One
+print(friends[-1])
+# "Mahmoud" => Method Two
+print(friends[4])
