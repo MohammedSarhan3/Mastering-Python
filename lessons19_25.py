@@ -78,3 +78,13 @@ friends = ["Osama", "Ahmed", "Sayed", "Ali", "Mahmoud"]
 # "Ahmed", "Sayed", "Ali",
 print(friends)
 # "Ali", "Mahmoud"
+
+
+
+# Task [4]
+friends = ["Osama", "Ahmed", "Sayed", "Ali", "Mahmoud"]
+
+# Needed Output
+# ["Osama", "Ahmed", "Sayed", "Elzero", "Elzero"]
+friends[-1],friends[-2]="Elzero","Elzro"
+print(friends)
