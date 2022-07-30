@@ -56,3 +56,14 @@ print(friends[-5])
 print(friends[-1])
 # "Mahmoud" => Method Two
 print(friends[4])
+
+
+# Task [2]
+
+friends = ["Osama", "Ahmed", "Sayed", "Ali", "Mahmoud"]
+
+# Needed Output
+# "Osama", "Sayed", "Mahmoud"
+print(friends[0],friends[2],friends[4])
+# "Ahmed", "Ali"
+print(friends[1],friends[3])
