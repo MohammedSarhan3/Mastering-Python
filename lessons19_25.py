@@ -111,3 +111,15 @@ print(friends)
 # ["Ahmed", "Sayed"]
 l= friends.pop(-1)
 print(friends)
+
+
+# Task [7]
+
+friends = ["Ahmed", "Sayed"]
+employees = ["Samah", "Eman"]
+school = ["Ramy", "Shady"]
+
+# Needed Output
+# ["Ahmed", "Sayed", "Samah", "Eman", "Ramy", "Shady"]
+k = friends +employees +school
+print(k)
