@@ -98,3 +98,16 @@ friends_2 = ["Osama", "Ahmed", "Sayed"]
 x = friends_2.insert(0,5)
 print(x)
 # ["Nasser", "Osama", "Ahmed", "Sayed", "Salem"]
+
+# Task [6]
+friends = ["Nasser", "Osama", "Ahmed", "Sayed", "Salem"]
+
+# Needed Output
+# ["Ahmed", "Sayed", "Salem"]
+k=friends.pop(0)
+g= friends.pop(0)
+
+print(friends)
+# ["Ahmed", "Sayed"]
+l= friends.pop(-1)
+print(friends)
