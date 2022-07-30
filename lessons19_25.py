@@ -22,3 +22,15 @@ num = 10
 # Needed Ouput
 # 10.0000000000
 print(float(num))
+
+
+
+# Task [4]
+num = 159.650
+
+# Needed Output
+# 159
+d=int(num)
+print(d)
+# <class 'int'>
+print(type(d))
