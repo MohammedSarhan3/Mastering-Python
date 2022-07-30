@@ -123,3 +123,15 @@ school = ["Ramy", "Shady"]
 # ["Ahmed", "Sayed", "Samah", "Eman", "Ramy", "Shady"]
 k = friends +employees +school
 print(k)
+
+# Task [8]
+friends123 = ["Ahmed", "Sayed", "Samah", "Eman", "Ramy", "Shady"]
+
+# Needed Output
+# ['Ahmed', 'Eman', 'Ramy', 'Samah', 'Sayed', 'Shady']
+k= sorted(friends123)
+print(k)
+# ['Shady', 'Sayed', 'Samah', 'Ramy', 'Eman', 'Ahmed']
+m= sorted(friends123)
+l= m.reverse()
+print(l)
