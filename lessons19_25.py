@@ -135,3 +135,10 @@ print(k)
 m= sorted(friends123)
 l= m.reverse()
 print(l)
+
+# Task [9]
+friends = ["Ahmed", "Sayed", "Samah", "Eman", "Ramy", "Shady"]
+
+# Needed Output
+# 6
+print(len(friends))
