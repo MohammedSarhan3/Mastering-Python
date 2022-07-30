@@ -67,3 +67,14 @@ friends = ["Osama", "Ahmed", "Sayed", "Ali", "Mahmoud"]
 print(friends[0],friends[2],friends[4])
 # "Ahmed", "Ali"
 print(friends[1],friends[3])
+
+
+
+# Task [3]
+
+friends = ["Osama", "Ahmed", "Sayed", "Ali", "Mahmoud"]
+
+# Needed Output
+# "Ahmed", "Sayed", "Ali",
+print(friends)
+# "Ali", "Mahmoud"
