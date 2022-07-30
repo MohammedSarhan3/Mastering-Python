@@ -14,3 +14,11 @@ f=1+2j
 print(f.imag)
 # Print Real Part Here
 print(f.real)
+
+# Task [3]
+
+num = 10
+
+# Needed Ouput
+# 10.0000000000
+print(float(num))
