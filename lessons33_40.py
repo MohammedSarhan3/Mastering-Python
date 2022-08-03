@@ -100,3 +100,19 @@ name = input("Ener your name").strip().capitalize()
 print(f"Hello {name}, Happy To See You Here.")
 "Hello Osama, Happy To See You Here."
 print("=" * 50)
+
+# Task [2]
+# Inputs
+age= int(input("enter your age: "))
+16 # Input One
+ag=age <16
+24 # Input Two
+f= age > 16
+# Needed Output
+print(f"Hello Your {ag} Is Under 16, Some Articles Is Not Suitable For You" )
+
+print(f"Hello Your Age Is {f}, All Articles Is Suitable For You" )
+
+"Hello Your Age Is Under 16, Some Articles Is Not Suitable For You" # If Age < 16
+"Hello Your Age Is {Age_Value_If_Larger_Than_16}, All Articles Is Suitable For You" # If Age Is 16+
+print("=" * 50)
