@@ -116,3 +116,19 @@ print(f"Hello Your Age Is {f}, All Articles Is Suitable For You" )
 "Hello Your Age Is Under 16, Some Articles Is Not Suitable For You" # If Age < 16
 "Hello Your Age Is {Age_Value_If_Larger_Than_16}, All Articles Is Suitable For You" # If Age Is 16+
 print("=" * 50)
+
+
+# Task [3]
+# Inputs
+
+"Osama" # First Name
+FirstName = input("Enter your First Name: ").capitalize()
+"Mohamed" # Second Name
+SecondName = input("Enter your Second Name: ")
+# Needed Output
+
+"Hello {First_Name} {First_Letter_From_Second_Name}." # Example "Osama M."
+print(f"Hello {FirstName} {SecondName:.1s}.") 
+
+
+print("=" * 50)
