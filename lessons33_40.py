@@ -63,3 +63,24 @@ print(num>num_one and num > num_two)
 
 
 print("=" * 50)
+
+
+
+# Task [4]
+num_one = 10
+num_two = 20
+
+# Needed Output
+
+30
+result =  num_one+num_two
+print(result)
+27000
+Exponent = result**3
+print(Exponent)
+1000
+e= Exponent/26000
+print(e)
+200.0
+#<class 'str'>
+print("=" * 50)
