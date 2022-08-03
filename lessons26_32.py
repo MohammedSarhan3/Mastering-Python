@@ -12,3 +12,19 @@ print(type(list(unique_list)))
 # 1, 2, 3, 4
 g=unique_list.remove(5)
 print(g)
+
+#Task [2]
+nums = {1, 2, 3}
+letters = {"A", "B", "C"}
+
+# Needed Output
+
+# {1, 2, 3, "A", "B", "C"}
+
+print(nums | letters)
+
+# {1, 2, 3, "A", "B", "C"}
+print(letters.union(nums))
+# {1, 2, 3, "A", "B", "C"}
+
+print(nums.union(letters))
