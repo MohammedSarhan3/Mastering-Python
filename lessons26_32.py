@@ -44,3 +44,30 @@ print(a)
 my_set.add("A")
 my_set.add("B")
 print(my_set)
+
+#Task [4]
+
+set_one = {1, 2, 3}
+set_two = {1, 2, 3, 4, 5, 6}
+
+# Needed Output
+print(set_two.issuperset(set_one))
+#True
+
+#Task [5]
+
+# Create Dictionary Here
+a={
+    "HTML":"90%",
+    "CSS": "90%",
+    "Python": "30%"
+}
+# Needed Output
+
+
+a["AI"] = "20%"
+print(a.keys(),"Progress Is", a.values())
+"HTML Progress Is 90%"
+"CSS Progress Is 80%"
+"Python Progress Is 30%"
+"AI Progress Is 20%"
