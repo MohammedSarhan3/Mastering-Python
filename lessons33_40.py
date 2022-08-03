@@ -132,3 +132,21 @@ print(f"Hello {FirstName} {SecondName:.1s}.")
 
 
 print("=" * 50)
+
+# Task [4]
+
+# Inputs
+
+"Osama@Nn.Sa" # Email
+name = input("Enter your Name: ")
+email = input("Enter your Email: ")
+# Needed Output
+"Your Name Is Osama"
+print(f"Your Name Is {name}")
+"Email Service Provider Is nn"
+e= email[email.index("@"):email.index(".")]
+print(f"Email Service Provider Is {e}")
+
+"Top Level Domain Is sa"
+g= email[email.index(".") +1:]
+print(f"Top Level Domain Is{g}")
