@@ -84,3 +84,19 @@ print(e)
 200.0
 #<class 'str'>
 print("=" * 50)
+
+
+#Assignments For Lessons 38 To 40
+
+print("Assignments For Lessons 38 To 40")
+
+
+# Task [1]
+# Input
+name = input("Ener your name").strip().capitalize()
+"     osAmA   "
+
+# Needed Output
+print(f"Hello {name}, Happy To See You Here.")
+"Hello Osama, Happy To See You Here."
+print("=" * 50)
