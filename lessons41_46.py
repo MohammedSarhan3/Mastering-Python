@@ -29,3 +29,13 @@ if operation == "%":
 # Example Two 20 * 40 = 800
 
 '''
+
+
+#Task [2]
+age = 6
+
+# Needed Output
+
+print ("App Is Suitable For You" if age > 16 else "App Is Not Suitable For You")
+#"App Is Suitable For You" # If Age Larger Than 16
+#"App Is Not Suitable For You" # if Age Smaller Than 16
