@@ -39,3 +39,21 @@ age = 6
 print ("App Is Suitable For You" if age > 16 else "App Is Not Suitable For You")
 #"App Is Suitable For You" # If Age Larger Than 16
 #"App Is Not Suitable For You" # if Age Smaller Than 16
+
+
+#Task [3]
+'''
+# Input Example 38
+age = int(input("Enter Your Age: ").strip())
+# Needed Output
+if age > 10 and age <100 :
+    monthe = age * 12
+    week= age * 48
+    print(f"Your Age In Months Is {monthe} Months")
+    print(f"Your Age In Weeks Is {week} Weeks")
+else:
+    print("Your Age Out Of The Range.")
+#"Your Age In Months Is 456 Months" # Months Example
+#"Your Age In Weeks Is 1824 Weeks" # Weeks Example
+
+'''
